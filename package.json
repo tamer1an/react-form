@@ -1,0 +1,61 @@
+{
+  "name": "react-form",
+  "version": "0.1.0",
+  "description": "React form App",
+  "homepage": "/",
+  "main": "src/index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "coverage": "npm test -- --coverage",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/lab": "^4.0.0-alpha.52",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest-enzyme": "^7.1.2",
+    "less": "^3.11.1",
+    "prettier": "2.0.5",
+    "puppeteer": "^5.3.1",
+    "puppeteer-core": "^5.3.1",
+    "react": "17.0.0-rc.2",
+    "react-dom": "17.0.0-rc.2",
+    "react-scripts": "^3.4.1",
+    "sinon": "^9.0.2",
+    "ts-node": "^8.9.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.6"
+  },
+  "private": true,
+  "author": {
+    "name": "Andrii Trybynenko",
+    "email": "tamerjlah@gmail.com",
+    "url": "https://github.com/tamer1an/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamer1an/dotfiles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tamer1an/dotfiles/issues"
+  },
+  "keywords": [
+    "node-red",
+    "better-life",
+    "iot"
+  ],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

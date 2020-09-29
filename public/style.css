@@ -1,0 +1,63 @@
+#root {
+    width: 327px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+html {
+    color: white;
+    background: black;
+}
+
+.personal > div:first-child {
+    padding-top: 20px;
+}
+.personal > div:last-child {
+    padding-bottom: 20px;
+}
+.personal > div {
+    margin: 10px;
+    width: 95%;
+    text-align: right;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.form__input {
+    margin-left: 10px;
+}
+
+.submit {
+    text-align: right;
+    line-height: 50px;
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+}
+
+
+/* iPad (landscape) ----------- */
+@media screen and (max-width:960px) {
+
+}
+
+/* ipad (portraid) --------- */
+@media only screen and (max-width : 640px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*@media only screen and (min-device-width: 640px) and (max-device-width: 960px) { }*/
+/*@media only screen and (min-device-pixel-ratio : 1.5) and (orientation : landscape), only screen and (min-device-pixel-ratio : 1.5) and (orientation : landscape) { }*/
+/*@media only screen and (min-device-pixel-ratio : 1.5) and (orientation : portrait), only screen and (min-device-pixel-ratio : 1.5) and (orientation : portrait) { }*/
