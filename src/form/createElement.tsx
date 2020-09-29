@@ -7,7 +7,7 @@ const inputGenerator = (props: InputConfig) => <input className={inputClass} {..
 export const sanitizeId = (str: string) => str.trim().toLowerCase().replace(' ', '_');
 export const labelGenerator = (id: string, name: string) => (
   <label className={labelClass} htmlFor={id}>
-  {name}
+    {name}
   </label>
 );
 export const input = (
@@ -29,7 +29,7 @@ export const input = (
   return (
     <div>
       {labelGenerator(id, name)}
-  {inputGenerator(props)}
-  </div>
-);
+      {inputGenerator(props)}
+    </div>
+  );
 };
