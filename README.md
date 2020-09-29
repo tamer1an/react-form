@@ -2,4 +2,7 @@
 
 1) `npm i`
 
-1) "puppeteer-core": "^5.3.1",
+1) `npm start`
+
+1) `npm test`
+
